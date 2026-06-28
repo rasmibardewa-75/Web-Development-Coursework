@@ -3,10 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Event List</title>
 </head>
 <body>
-    <h1>Event Management System</h1>
-    
+    <h1>Event List</h1>
+    <form>
+        <label>Search Events</label>
+        <input type = "text" name ="search" placeholder="Enter event name...">
+        <input type ="submit" value="Search">
+    </form>
+    <h2>View Events</h2>
+    <table  border ="1">
+        <thead>
+            <tr>
+                <th>Event Name</th>
+                <th>Description></th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Attendees</th>
+            </tr>
+            <tr>
+                <td><a href="event-details.html">AI Workshop</a></td>
+                <td>Hands-on workshop on Artificial Intelligence.</td>
+                <td>2025-10-15</td>
+                <td>Bhaktapur</td>
+                <td>50</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href = "event-details.html">Cultural Festival</a></td>
+                <td>Celebration of local culture and traditions.</td>
+                <td>2024-11-20</td>
+                <td>Lalitpur</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td><a href = "event-details.html">Career Fair</a></td>
+                <td>Job seekers and employers connect for career opportunities.</td>
+                <td>2024-12-01</td>
+                <td>Chitwan</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td><a href = "event-details.html">Digital Marketing Seminar</a></td>
+                <td>Learn modern digital marketing strategies</td>
+                <td>2023-12-15</td>
+                <td>San Francisco, CA</td>
+                <td>200</td>
+            </tr>
+        </tbody>
+    </table>
+<h3>View Upcoming Events</h3>
+<table border = "1">
+    <thead>
+        <tr>
+            <th>Event Name</th>
+            <th>Description</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="event-details.html">Tech Conference 2026</a></td>
+            <td>Annual technology and innovation conference.</td>
+            <td>2026-08-15</td>
+            <td>10:00 AM</td>
+            <td>Kathmandu</td>
+        </tr>
+        <tr>
+            <td><a href = "event-details.html">Music Festival</a></td>
+            <td>Live music performances by various artists.</td>
+            <td>2026-09-10</td>
+            <td>05:00 PM</td>
+            <td>Pokhara</td>
+        </tr>
+        <tr>
+            <td><a href ="event-details.html">Hackathon 2026</a></td>
+            <td>24-hour coding competition.</td>
+            <td>2026-11-15</td>
+            <td>09:00 AM</td>
+            <td>Kathmandu</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<h3>View Attendee List</h3>
+<table border ="1" > 
+    <tr>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Phone Number</td>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>john.doe@example.com</td>
+        <td>+1-234-567-8901</td>
+    </tr>
+    <tr>
+        <td>Jane Smith</td>
+        <td>jane.smith@example.com</td>
+        <td>+1-234-567-8902</td>
+    </tr>
+    <tr>
+        <td>Bob Johnson</td>
+        <td>bob.johnson@example.com</td>
+        <td>+1-234-567-8903</td>
+    </tr>
+</table>
 </body>
 </html>
