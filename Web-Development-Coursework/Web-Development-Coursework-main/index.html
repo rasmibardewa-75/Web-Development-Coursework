@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event List</title>
     <link rel ="stylesheet" href ="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
+    <nav>
+
+
+<hr>
     <h1>Event List</h1>
     <form>
         
@@ -24,6 +29,7 @@
                 <th>Location</th>
                 <th>Attendees</th>
             </tr>
+            </thead>
             <tbody>
             <tr>
                 <td><a href="event-details.html">AI Workshop</a></td>
@@ -111,11 +117,11 @@
 <br>
 <h3>View Attendee List of AI Workshop</h3>
 <table border ="1" > 
-    <tr>
-        <td>Name</td>
-        <td>Email</td>
-        <td>Phone Number</td>
-    </tr>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Phone Number</th>
+</tr>
     <tr>
         <td>John Doe</td>
         <td>john.doe@example.com</td>
@@ -199,13 +205,13 @@
     <form>
         <br>
     <label>Name:</label><br>
-    <input type="text" name="name" required><br>
+    <input type="text" id="name" name="name" required><br>
 
     <label>Email:</label><br>
-    <input type="email" name="email" required><br>
+    <input type="email" id="email" name="email" required><br>
 
     <label>Phone Number:</label><br>
-    <input type="tel" name="phone" required><br>
+    <input type="tel" id="phone" name="phone" required><br>
 
     <input type="submit" value="Save">
   </form>
@@ -226,9 +232,9 @@
   <h3>Login</h3>
   <form>
     <label>Username:</label><br>
-    <input type="text" name="username" required><br>
+    <input type="text" id="username" name="username" required><br>
     <label>Password:</label><br>
-    <input type="password" name="password" required><br>
+    <input type="password" id="password" name="password" required><br>
     <input type="submit" value="Login">
 
 
