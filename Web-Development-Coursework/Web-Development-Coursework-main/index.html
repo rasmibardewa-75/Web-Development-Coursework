@@ -11,8 +11,8 @@
     <form>
         
         <label>Search Events:</label>
-        <input type = "text" name ="search" placeholder="Enter event name...">
-        <input type ="submit" value="Search">
+         <input type="text" id="searchInput" placeholder="Enter event name...">
+        <input type ="button" value="Search" onclick="searchEvent()">
     </form>
     <h2>View Events</h2>
     <table  border ="1">
@@ -24,6 +24,7 @@
                 <th>Location</th>
                 <th>Attendees</th>
             </tr>
+            <tbody>
             <tr>
                 <td><a href="event-details.html">AI Workshop</a></td>
                 <td>Hands-on workshop on Artificial Intelligence.</td>
@@ -31,6 +32,7 @@
                 <td>Bhaktapur</td>
                 <td>5</td>
             </tr>
+            </tbody>
         </thead>
         <tbody>
             <tr>
@@ -134,7 +136,8 @@
         <td>alice.brown@example.com</td>
         <td>9765438904</td>
     </tr>
-   <table>
+</table>
+
     <h3>View attende list of Cultural Festival</h3>
     <table border = "1">
         <tr>
@@ -228,7 +231,7 @@
     <input type="password" name="password" required><br>
     <input type="submit" value="Login">
 
-    
+
   </form>
 </body>
 </html>
