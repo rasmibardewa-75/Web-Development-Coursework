@@ -65,7 +65,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"],
-input[type="tel"],
+input[type="button"],
 select {
     width: 320px;
     padding: 10px;

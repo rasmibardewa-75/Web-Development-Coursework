@@ -1,9 +1,11 @@
 function searchEvent(){
-    let input= document.getElementById("searchInput").ariaValueMax.toLowerCase();
-    let table= document.getElementByTagName("table")[0];
-    let rows= table.getElementByTagName("tr");
+    let input= document.getElementById("searchInput").value.toLowerCase();
+    let tables= document.getElementsByTagName("table");
 
-for (let i = 1; i < rows.length; i++) {
+for (let t = 0; t < 2; t++) {
+    let rows = tables[t].getElementsByTagName("tr");
+
+for (let i = 1; i < rows.length; i++) {  
         let eventName = rows[i].getElementsByTagName("td")[0];
 
         if (eventName) {
@@ -17,4 +19,4 @@ for (let i = 1; i < rows.length; i++) {
         }
     }
 }
-
+}
