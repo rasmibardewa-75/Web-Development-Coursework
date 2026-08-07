@@ -1,0 +1,63 @@
+function UpcomingEvents() {
+    return (
+        <div>
+            <h3>View Upcoming Events</h3>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Event Name</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Tech Conference</td>
+                        <td>Annual technology and innovation conference.</td>
+                        <td>2026-08-15</td>
+                        <td>10:00 AM</td>
+                        <td>Kathmandu</td>
+                    </tr>
+
+                    <tr>
+                        <td>Music Festival</td>
+                        <td>Live music performances by various artists.</td>
+                        <td>2026-09-10</td>
+                        <td>05:00 PM</td>
+                        <td>Pokhara</td>
+                    </tr>
+
+                    <tr>
+                        <td>Hackathon</td>
+                        <td>24-hour coding competition.</td>
+                        <td>2026-11-15</td>
+                        <td>09:00 AM</td>
+                        <td>Kathmandu</td>
+                    </tr>
+
+                    <tr>
+                        <td>PyTorch Meetup Nepal</td>
+                        <td>Workshops and expert talks on machine learning and AI.</td>
+                        <td>2026-08-27</td>
+                        <td>02:00 PM</td>
+                        <td>Kathmandu</td>
+                    </tr>
+
+                    <tr>
+                        <td>AI Bootcamp</td>
+                        <td>Comprehensive training on artificial intelligence concepts and applications.</td>
+                        <td>2026-09-20</td>
+                        <td>10:00 AM</td>
+                        <td>Pokhara</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    );
+}
+
+export default UpcomingEvents;
